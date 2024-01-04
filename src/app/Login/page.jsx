@@ -8,18 +8,18 @@ export default function login() {
 
         <div className="flex-1 bg-[#272727]">
           <div className="max-w-[600px] w-full mx-auto my-auto px-10 lg:px-0 ">
-          <div className=" pt-[182px md:pb-[44px] pb-[45px] flex flex-col items-center sm:items-start">
-            <h1 className="text-[48px] font-normal">Welcome</h1>
+          <div className=" pt-[182px] md:pb-[44px] pb-[51px] flex flex-col items-center sm:items-start">
+            <h1 className="text-[48px] font-normal font-serif">Welcome</h1>
             <p className="text-[#A5A5A5] text-[24px] font-light">Lets log you up quickly</p>
           </div>
 
-          <form className="flex flex-col gap-[21.95px] sm:gap-[22px] sm:px-0 px-[41px]">
+          <form className="flex flex-col gap-[21.95px] sm:gap-[22px] sm:px-0 ">
               <input type="email" placeholder="Enter your email" required className="RegisterInputs" />
               <input type="password" placeholder="Enter your password" required className="RegisterInputs" />
 
-              <span className="flex flex-col md:flex-row justify-between gap-[45px]">
-                  <button type="submit" className="bg-[#6EEB83] text-black w-[180px] h-[60px] text-[20px] font-semibold">LOGIN</button>
-                  <p className="text-[20px] font-normal max-w-[257px] w-full flex flex-col">already have an account? <span className="text-[#6EEB83] "> <Link href={'/Login'} >Sign-up</Link> </span> </p>
+              <span className="flex flex-col md:flex-row justify-between gap-[51.19px]">
+                  <button type="submit" className="bg-[#6EEB83] text-black md:w-[180px] w-[160px] md:h-[60px] h-[52.81px] text-[20px] font-semibold font-sans">SUBMIT</button>
+                  <p className="text-[20px] font-normal max-w-[257px] w-full flex flex-col">already have an account? <span className="text-[#6EEB83] "> <Link href={'/'} >Sign-up</Link> </span> </p>
               </span>
           </form>
         </div>

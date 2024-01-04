@@ -4,5 +4,5 @@
 
 
 .RegisterInputs{
-      @apply  h-[60px] bg-[#272727] border border-[#6EEB83] border-solid placeholder:text-[#A5A5A5] text-white outline-0 text-base font-light pl-[30px] 
+      @apply  h-[60px] bg-[#272727] border border-[#6EEB83] border-solid placeholder:text-[#A5A5A5] text-white outline-none text-base font-light pl-[30px] 
 }
